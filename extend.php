@@ -3,6 +3,7 @@
 namespace kk14569\flarumhubuix;
 
 use Flarum\Extend;
+use Flarum\Frontend\Document;
 
 return [
     (new Extend\Frontend('forum'))
