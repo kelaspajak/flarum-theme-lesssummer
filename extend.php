@@ -1,12 +1,12 @@
 <?php
 
-namespace kk14569\\flarumhubuix;
+namespace kk14569\flarumhubuix;
 
-use Flarum\\Extend;
+use Flarum\Extend;
 
 return [
-    (new Extend\\Frontend('forum'))
+    (new Extend\Frontend('forum'))
         ->css(__DIR__.'/less/forum.less'),  
-    (new Extend\\Frontend('admin'))
+    (new Extend\Frontend('admin'))
         ->css(__DIR__.'/less/admin.less'),  
 ];
