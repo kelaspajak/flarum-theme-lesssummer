@@ -1,5 +1,29 @@
 /* HubUi-X Theme */
 @import "common.less";
+li {
+    border-radius: @border-radius !important;
+}
+.FlarumBlogOverview .BlogFeatured-list-item,
+.FlarumBlogOverview .BlogFeatured-list-item-top .dataItem,
+.FlarumBlog-Article-Content,
+.FlarumBlog-Article-Comments,
+.BlogSideWidget-item,
+.FlarumBlog-Article-Author {
+    border-radius: @border-radius !important;
+    box-shadow: unset !important;
+}
+.BlogSideWidget {
+    border-radius: @border-radius !important;
+    box-shadow: unset !important;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+.FlarumBlog-Article-Author-background,
+.FlarumBlogItem .FlarumBlog-Article .FlarumBlog-Article-Container .FlarumBlog-Article-Image {
+    border-radius: @border-radius @border-radius 0 0 !important;
+    box-shadow: unset !important;
+}
 .WelcomeHero {
     color: #fdfdfd;
     background: linear-gradient(160deg, var(--control-bg-shaded), var(--button-primary-bg-hover));
@@ -45,10 +69,10 @@ body, #app .App-content {
     margin-top: 4px;
     padding: 4px 22px 4px 22px;
     & when (@config-dark-mode = false) {
-        background-color: rgba(255,255,255,0.8);
+        background-color: rgba(255,255,255,1.0);
     }
     & when (@config-dark-mode = true) {
-        background-color: rgba(14,14,14,0.8);
+        background-color: rgba(14,14,14,1.0);
     }
 }
 .PostsUserPage {
@@ -56,20 +80,20 @@ body, #app .App-content {
     margin-top: 4px;
     padding: 12px 22px 12px 22px;
     & when (@config-dark-mode = false) {
-        background-color: rgba(255,255,255,0.8);
+        background-color: rgba(255,255,255,1.0);
     }
     & when (@config-dark-mode = true) {
-        background-color: rgba(14,14,14,0.8);
+        background-color: rgba(14,14,14,1.0);
     }
 }
 .DiscussionListItem {
     margin: 8px 0px 8px 0px;
     border-radius: @border-radius !important;
     & when (@config-dark-mode = false) {
-        background-color: rgba(255,255,255,0.8);
+        background-color: rgba(255,255,255,1.0);
     }
     & when (@config-dark-mode = true) {
-        background-color: rgba(14,14,14,0.8);
+        background-color: rgba(14,14,14,1.0);
     }
 }
 .DiscussionListItem-content {
@@ -101,10 +125,10 @@ aside.DiscussionPage-list {
         padding: 2px 12px 2px 12px;
         border-radius: @border-radius;
         & when (@config-dark-mode = false) {
-            background-color: rgba(255,255,255,0.8);
+            background-color: rgba(255,255,255,1.0);
         }
         & when (@config-dark-mode = true) {
-            background-color: rgba(14,14,14,0.8);
+            background-color: rgba(14,14,14,1.0);
         }
     }
     .SettingsPage, .UserSecurityPage, .MasqueradeRoot {
@@ -112,10 +136,10 @@ aside.DiscussionPage-list {
         margin-top: 4px;
         padding: 12px 22px 12px 22px;
         & when (@config-dark-mode = false) {
-            background-color: rgba(255,255,255,0.8);
+            background-color: rgba(255,255,255,1.0);
         }
         & when (@config-dark-mode = true) {
-            background-color: rgba(14,14,14,0.8);
+            background-color: rgba(14,14,14,1.0);
         } 
     }
 }
