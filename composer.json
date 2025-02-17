@@ -1,8 +1,8 @@
 {
-    "name": "kk14569/flarum-hubui-x",
+    "name": "kk14569/flarum-theme-hub",
     "description": "A modern and soft theme designed by 14569 for Flarum.",
     "type": "flarum-extension",
-    "version": "v1.1.6",
+    "version": "v1.1.7",
     "license": "GPL-3.0",
     "require": {
         "flarum/core": "^1.8.0"
@@ -10,18 +10,18 @@
     "authors": [
         {
             "name": "14569",
-            "email": "3754688512@qq.com",
+            "email": "notessentials@163.com",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/kk14569/flarum-hubui-x/issues",
-        "source": "https://github.com/kk14569/flarum-hubui-x",
+        "issues": "https://github.com/kk14569/flarum-theme-hub/issues",
+        "source": "https://github.com/kk14569/flarum-theme-hub",
         "forum": "https://discuss.flarum.org/d/34823"
     },
     "extra": {
         "flarum-extension": {
-            "title": "HubUi-X",
+            "title": "Theme - Hub",
             "category": "theme",
             "icon": {
                 "name": "fas fa-th-large",
