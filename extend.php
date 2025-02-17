@@ -1,6 +1,6 @@
 <?php
 
-namespace kk14569\flarumhubuix;
+namespace kk14569\flarumthemehub;
 
 use Flarum\Extend;
 use Flarum\Frontend\Document;
