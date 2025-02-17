@@ -2,5 +2,5 @@
 A modern and soft theme designed by 14569 for Flarum.  
 # Install
 ```
-composer require kk14569/flarum-hubui-x
+composer require kk14569/flarum-theme-hub
 ```
