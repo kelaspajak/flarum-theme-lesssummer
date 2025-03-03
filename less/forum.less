@@ -1,4 +1,4 @@
-/* HubUi-X Theme */
+/* Hub */
 @import "common.less";
 li {
     border-radius: @border-radius !important;
@@ -157,7 +157,18 @@ header.Hero.DiscussionHero, header.Hero.WelcomeHero {
     border-radius: @border-radius;
 }
 .Hero {
-    margin: 12px;
+    margin: 15px auto 0;
+    max-width: @screen-desktop-hd;
+    @media @desktop {
+        max-width: @screen-desktop;
+    }
+    @media @tablet {
+        max-width: @screen-tablet;
+    }
+    @media @phone {
+        max-width: calc(~"100% - 30px");
+        margin-bottom: 15px;
+    }
 }
 ul.NotificationGroup-content {
     &>li {
