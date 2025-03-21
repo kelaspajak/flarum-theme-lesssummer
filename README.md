@@ -1,6 +1,6 @@
 # Flarum Theme Hub
-A modern and soft theme designed by 14569 for Flarum.  
+Clone of A modern and soft theme designed by 14569 for Flarum.  
 # Install
 ```
-composer require kk14569/flarum-theme-hub
+composer require kelaspajak/flarum-theme-lesssummer
 ```
