@@ -2,7 +2,7 @@
     "name": "kelaspajak/flarum-theme-lesssummer",
     "description": "clone of A modern and soft theme designed by 14569 for Flarum.",
     "type": "flarum-extension",
-    "version": "v0.0.1",
+    "version": "v0.0.2",
     "license": "GPL-3.0",
     "require": {
         "flarum/core": "^1.8.0"
