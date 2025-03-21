@@ -1,6 +1,6 @@
 {
-    "name": "kk14569/flarum-theme-hub",
-    "description": "A modern and soft theme designed by 14569 for Flarum.",
+    "name": "kelaspajak/flarum-theme-hub",
+    "description": "clone of A modern and soft theme designed by 14569 for Flarum.",
     "type": "flarum-extension",
     "version": "v1.1.7",
     "license": "GPL-3.0",
@@ -9,24 +9,24 @@
     },
     "authors": [
         {
-            "name": "14569",
-            "email": "notessentials@163.com",
+            "name": "Less Summer",
+            "email": "pajak.resources@gmail.com",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/kk14569/flarum-theme-hub/issues",
-        "source": "https://github.com/kk14569/flarum-theme-hub",
+        "issues": "https://github.com/kelaspajak/flarum-theme-hub/issues",
+        "source": "https://github.com/kelaspajak/flarum-theme-hub",
         "forum": "https://discuss.flarum.org/d/34823"
     },
     "extra": {
         "flarum-extension": {
-            "title": "Theme - Hub",
+            "title": "Theme - Diskusi",
             "category": "theme",
             "icon": {
-                "name": "fas fa-th-large",
-                "backgroundColor": "#0076D4",
-                "color": "#fff"
+                "name": "fas fa-dove",
+                "backgroundColor": "#F43F5E",
+                "color": "#4C0519"
             }
         }
     }
