@@ -1,6 +1,6 @@
 <?php
 
-namespace kelaspajak\flarum-theme-lesssummer;
+namespace kelaspajak\flarumthemelesssummer;
 
 use Flarum\Extend;
 use Flarum\Frontend\Document;
