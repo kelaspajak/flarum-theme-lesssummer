@@ -1,0 +1,2 @@
+- name: Packagist Update
+  uses: mnavarrocarter/packagist-update@v1.0.0
